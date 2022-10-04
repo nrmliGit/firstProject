@@ -1,7 +1,7 @@
 @import url(./ceyhun.css);
 @import url(./medine.css);
 @import url(./metin.css);
-@import url(./gulnar.css);
+@import url(./gulnar.css); 
 
 *{
     padding: 0;
@@ -19,3 +19,5 @@ body{
 .row{
     display: flex;
 }
+
+
