@@ -193,119 +193,141 @@
 }
 
 @media screen and (max-width: 991px) {
+    
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
     .imginheader {
-        width: 8%;
-        margin-left: 20%;
-        margin-top: 1.4%;
+        width: 13.8%;
+        margin-left: 9.33%;
+        margin-top: 9.33%;
     }
 
     .uppergroup1 {
-        margin-left: 20%;
+        margin-left: 9.33%;
+        width: 81.86vw;
         flex-direction: column;
     }
-
-    .firstmanimage {
-        margin-top: -2.5vh;
-        margin-left: 22vw;
+    .group1{
+        width: 63.2vw;
     }
-
-    .t3 {
-        width: 212.4px;
-        height: 28.96px;
+    /* altgroup1 display flex */
+    .photo1{
+        width: 2.66vw;
+        height: 2.66vw;
     }
-
-    .group2 {
-        margin-top: 20%;
-        margin-left: -9%;
+    .photo1a{
+        width: 2.66vw;
+        height: 2.66vw;
+        margin-left: 2.9vw;
     }
-
-    .uppergroup2 {
-        margin-left: 20%;
+    .t1{
+        font-size: 2.41vw;
+        font-weight: 600;
+    }
+    .altgroup2{
+        margin-top: 6.3vw;
+        width: 77.86vw;
+    }
+    .t2{
+        font-size: 9.62vw;
+        font-weight: 600;
+    }
+    .t3{
+        margin-top: 4vw;
+        font-size: 2.41vw;
+        width: 56.5vw;
+        font-weight: 600;
+    }
+    .firstmanimage{
+        margin-left: 43vw;
+        margin-top: 3vw;
+        width: 37.6vw;
+    }
+    .group2{
+        position: absolute;
+        width: 60vw;
+        height: 24.8vw;
+        left: 10.1vw;
+        top: 124.7vw;
+        border-radius: 0.50vw;
+    }
+    .t4{
+        margin-top: 2.39vw;
+        margin-left: 3.23vw;
+        width: 52vw;
+        font-size: 3vw;
+        font-weight: 600;
+    }
+    .t5{
+        margin-left: 32.8vw;
+        font-size: 2.41vw;
+        font-weight: 600;
+    }
+    .uppergroup2{
+        margin-top: 57.6vw;
+        margin-left: 9.33vw;
         flex-direction: column;
     }
-
-    .camman {
-        margin-top: 1vw;
+    .t6{
+        width: 44.34vw;
+        font-size: 6.66vw;
+        font-weight: 600;
     }
-
-    .uppergroup3 {
-        margin-top: 6vh;
-        margin-left: 20%;
+    .t7{
+        width: 75vw;
+        margin-top: 6vw;
+        font-size: 2.90vw;
     }
-
-    .bigcamman {
+    .camman{
+        margin-top: 15.15vw;
+        margin-left: 17.3vw;
+        width: 45.33vw;
+        height: 42.66vw;
+    }
+    .uppergroup3{
+        margin-top: 9.46vw;
+        margin-left: 9.33vw;
+        flex-wrap: wrap;
+        gap: 8.88vw;
+    }
+    .bigcamman{
         display: none;
     }
-
-    .group4 {
-        width: 100vw;
-        flex-direction: row;
+    .group4{
         flex-wrap: wrap;
+        gap: 13vw;
     }
-
-    .group4>.altgroup3:nth-child(2) {
-        width: 50vw;
+    .t8{
+        font-size: 3vw;
+        font-weight: 600;
     }
-
-    .uppergroup4 {
-        margin-top: 6vh;
-        margin-left: 20%;
-        display: flex;
+    .t9{
+        margin-top: 2.41vw;
+        font-size: 2.18vw;
+        width: 22.93vw;
+        font-weight: 600;
+    }
+    .uppergroup4{
+        margin-top: 15vw;
+    }
+    .t10{
+        font-size: 6.93vw;
+        font-weight: 600;
+    }
+    .group5{
         flex-direction: column;
+        gap: 4vw;
     }
-
-    .group5 {
-        gap: 1px;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+    .t101{
+        font-size: 3vw;
+        width: 45vw;
+        font-weight: 600;
     }
-
-    .group6 {
-        margin-top: 6vh;
-        margin-left: 20%;
+    .t100{
+        font-size: 2.18vw;
+        width: 45vw;
+        font-weight: 600;
     }
-
-
-    .heading1 {
-        margin-top: 6vh;
-        margin-left: 20%;
-    }
-
-    .group7 {
-        margin-top: 6vh;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .heading2 {
-        margin-left: 20%;
-    }
-
-    .altgroup5 {
-        margin-left: 20%;
-    }
-
-    .group9 {
-        padding-top: 1vw;
-        height: 363.46px;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        justify-content: center;
-    }
-
-    .footer {
-        flex-direction: column;
-    }
-
-    .uppergroup6 {
-        margin-top: 10px;
-        margin-left: 8vw;
-    }
-
-    .t24 {
-        margin-top: 20px;
-    }
-
 }
